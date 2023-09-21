@@ -1,5 +1,15 @@
 {
-  "type": "module",
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "backend of blog application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --ext js,ejs --ignore public",
+    "build": "npm i"
+  },
+  "author": "omar",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
@@ -15,9 +25,7 @@
     "multer-gridfs-storage": "^5.0.2",
     "nodemon": "^3.0.1"
   },
-  "scripts": {
-    "start": "node index.js",
-    "watch": "nodemon index.js",
-    "build": "npm i"
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

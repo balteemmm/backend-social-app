@@ -1,7 +1,6 @@
 {
     "scripts": {
-    "start": "node index.js",
-    "watch": "nodemon index.js",
+    "dev": "node index.js",
     "build" : "npm i"
   },
   "dependencies": {

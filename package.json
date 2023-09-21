@@ -15,7 +15,6 @@
     "multer-gridfs-storage": "^5.0.2",
     "nodemon": "^3.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js"
